@@ -61,3 +61,32 @@ body {
 	color: #999999;
 	margin-top: 150px;
 }
+
+@media screen and (max-width: 800px) {
+	.name {
+		font-size: 30px;
+		margin-top: 50px;
+	}
+	.center {
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+	}
+	.input {
+		width: 300px;
+		margin: 0;
+	}
+	.output {
+		width: 300px;
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.input {
+		width: 250px;
+	}
+	.output {
+		width: 250px;
+	}
+}
