@@ -1,0 +1,63 @@
+@font-face {
+	font-family: axis;
+	src: url(axis.otf);
+}
+
+body {
+	background: linear-gradient(to left, #4d4d4d, #1a1a1a);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.input {
+	width: 400px;
+	height: 250px;
+	font-size: 20px;
+	color: #fff;
+	font-family: Helvetica;
+	outline: none;
+	resize: none;
+	background: transparent;
+	border: none;
+	outline: none;
+	border: 3px #fff solid;
+	margin-right: 25px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.output {
+	width: 400px;
+	height: 250px;
+	font-size: 20px;
+	color: #fff;
+	font-family: Helvetica;
+	outline: none;
+	resize: none;
+	background: transparent;
+	border: none;
+	outline: none;
+	border: 3px #fff solid;
+	margin-left: 25px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.center {
+	display: flex;
+	margin-top: 250px;
+	justify-content: center;
+	align-items: center;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	font-family: axis;
+	font-size: 50px;
+	color: #999999;
+	margin-top: 150px;
+}
